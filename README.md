@@ -30,3 +30,8 @@ To create the database:
 ```shell
 $ rake db:create
 ```
+
+To migrate database:
+```shell
+$ rake db:migrate
+```
