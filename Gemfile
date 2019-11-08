@@ -16,6 +16,11 @@ gem 'puma', '~> 3.11'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Active model serializer
+gem 'active_model_serializers'
+# Dummy data generator
+gem 'faker'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
