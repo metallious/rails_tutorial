@@ -11,6 +11,12 @@ After adding gems in the Gemfile. they can be fetched using
 $ bundle install
 ```
 
+## Models
+To create a model
+```shell
+$ rails g scaffold User name:string
+```
+
 ## Database
 To create the database:
 ```shell
