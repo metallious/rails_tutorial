@@ -13,6 +13,13 @@ class PostsController < ApplicationController
     render json: @post
   end
 
+  def showByUser
+    puts "#{params[:id]}"
+    @user = User.find(params[:id])
+    puts "#{@user}"
+    render json: @user.posts, each_serializer: ShortPostSerializer
+  end
+
   # POST /posts
   def create
     @post = Post.new(post_params)
