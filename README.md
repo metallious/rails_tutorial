@@ -35,3 +35,8 @@ To migrate database:
 ```shell
 $ rake db:migrate
 ```
+
+To feed database with dev data
+```shell
+$ rake db:seed
+```
