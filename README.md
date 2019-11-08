@@ -21,6 +21,7 @@ To create a model that belongs to another model
 ```shell
 $ rails g scaffold Post user:references title:text body:text
 ```
+a model can have multiple references
 
 ## Database
 To create the database:
