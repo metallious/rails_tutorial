@@ -40,3 +40,21 @@ To feed database with dev data
 ```shell
 $ rake db:seed
 ```
+
+If a db change is needed a migration can be created using
+```shell
+$ rails g migration change_something_to_be_something_else
+```
+The migration file might resemble this
+```ruby
+class ChangeSomethingToBeSomethingElse < ActiveRecord::Migration[5.0]
+  def change
+    change_column :customers, :phone, :string
+  end
+end
+```
+for a rollback enabled migration it's possible to use `up`/`down` instead of `change` to 
+be used with `db:migrate` and `db:rollback`.
+
+## Routes
+Under config/routes.rb is a list of exposed http routes
