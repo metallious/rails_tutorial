@@ -23,6 +23,8 @@ $ rails g scaffold Post user:references title:text body:text
 ```
 a model can have multiple references
 
+It's possible to create a one to many relationship by adding `has_many` to the model.
+
 ## Database
 To create the database:
 ```shell
