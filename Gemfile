@@ -20,6 +20,8 @@ gem 'puma', '~> 3.11'
 gem 'active_model_serializers'
 # Dummy data generator
 gem 'faker'
+# password encryption gem
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
