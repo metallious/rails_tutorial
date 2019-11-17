@@ -58,3 +58,6 @@ be used with `db:migrate` and `db:rollback`.
 
 ## Routes
 Under config/routes.rb is a list of exposed http routes
+
+## Service Objects
+Service Objects are reusable controllers, every Service Object deals with a single concern and performs a specific job. A gem like `simple_command` can be used for this matter.

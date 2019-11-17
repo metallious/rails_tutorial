@@ -24,6 +24,8 @@ gem "faker"
 gem "bcrypt", "~> 3.1.7"
 # token management gem
 gem "jwt"
+# gem for using Service Objects
+gem "simple_command"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
